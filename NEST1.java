@@ -9,4 +9,9 @@ public class NEST1 {
             // a condition 'o < h', which depends on the outer loop variable 'h'.
             for (int o = 1; o < h; o++) {
                 // Within the inner loop, print the message "I feel good."
-                System.out.println("I feel good
+                System.out.println("I feel good");
+            }
+                System.out.println();
+        }
+    }
+}
