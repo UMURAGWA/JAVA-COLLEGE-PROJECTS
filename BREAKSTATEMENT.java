@@ -8,7 +8,7 @@ public class BREAKSTATEMENT {
             // Check if 'i' is equal to 30.
             if (i == 30) {
                 // If 'i' is equal to 30, print a message and use the "break" statement to exit the loop.
-                System.out.println("Breaking the dates before this one.");
+                System.out.println("This code Breaks the dates before this one.");
                 break;
             }
             // If 'i' is not equal to 30, print a message indicating the days before 'i'.
