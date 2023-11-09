@@ -1,10 +1,10 @@
-// Interface for class Grandpa
+// Interface for class grandGrandpa
 interface grandGrandpa {
     void family();
 }
 
-// Class grandPa
-class grandPa {
+// Class grandPa implementing the grandGrandpa interface
+class grandPa implements grandGrandpa {
     public void family() {
         System.out.println("Grandpa: He was called MUZIGURA");
     }
@@ -35,11 +35,11 @@ public class Inheritanceex2 {
     public static void main(String[] args) {
         child famA = new child();
         grandPa famB = new grandPa(); 
-        grandPa famC = new child();
+        son famC = new son();
         grandPa famD = new dad();
         famA.family(); // Calls the family method in class child
         famB.family(); // Calls the family method in class grandPa
-        famC.family(); // Calls the family method in class child
+        famC.sfamily(); // Calls the sfamily method in class son
         famD.family(); // Calls the family method in class dad
     }
 }
